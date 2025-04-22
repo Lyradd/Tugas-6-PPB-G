@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun CurrencyConverterApp() {
-    val currencyList = listOf("IDR", "USD", "EUR", "JPY", "KRW", "RUB", "GBP", "AUD", "MYR", "SGD")
+    val currencyList = listOf("IDR", "USD", "EUR", "JPY", "KRW", "RUB", "GBP", "AUD", "MYR", "SGD", "CNY")
     val rates = mapOf(
         "IDR" to 1.0,
         "USD" to 1 / 16772.0,       // ≈ 0.00005963
@@ -45,7 +45,8 @@ fun CurrencyConverterApp() {
         "GBP" to 1 / 22084.20,      // ≈ 0.00004528
         "AUD" to 1 / 10611.0,       // ≈ 0.00009425
         "MYR" to 1 / 3802.53,       // ≈ 0.000263
-        "SGD" to 1 / 12787.90       // ≈ 0.0000782
+        "SGD" to 1 / 12787.90,       // ≈ 0.0000782
+        "CNY" to 1 / 2314.0
     )
 
     var amountInput by remember { mutableStateOf("") }
