@@ -46,6 +46,7 @@ Fungsi ini menggunakan `remember` untuk menyimpan dan memperbarui nilai input pe
 | AUD       | 10.611                    |
 | MYR       | 3.802,53                  |
 | SGD       | 12.787,90                 |
+| CNY       | 2314                      |
 
 > Catatan: Nilai tukar ini diatur secara statis (hardcoded) hanya untuk keperluan tugas ini.
 
